@@ -1,13 +1,18 @@
 from dz01 import isStepenBroja2
 from dz02 import allPrimeNumbersBetweenParameters
 from dz03 import inputClassesAndGrades, generateRandomBetweenParametersAndSort, generateUniformNumbers
+from dz04 import nameAndIndexOperation, fibonaccirecursive, fibonacciiterative
 
 def main():
-    print(generateUniformNumbers())
+    print(fibonaccirecursive(12))
+    print(fibonacciiterative(12))
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
+
+    
     #DZ01
     #brojevi = [1,2,256,512,777, 553, 128, 658, 523525]
     #for broj in brojevi:
