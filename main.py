@@ -2,10 +2,13 @@ from dz01 import isStepenBroja2
 from dz02 import allPrimeNumbersBetweenParameters
 from dz03 import inputClassesAndGrades, generateRandomBetweenParametersAndSort, generateUniformNumbers
 from dz04 import nameAndIndexOperation, fibonaccirecursive, fibonacciiterative
+from dz05 import z05, z02
 
 def main():
     print(fibonaccirecursive(12))
     print(fibonacciiterative(12))
+    z05()
+    z02()
 
 
 # Press the green button in the gutter to run the script.
