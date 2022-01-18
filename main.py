@@ -5,17 +5,20 @@ from dz03 import inputClassesAndGrades, generateRandomBetweenParametersAndSort, 
 from dz04 import nameAndIndexOperation, fibonaccirecursive, fibonacciiterative
 from dz05 import z05, z02
 from dz06 import z01, z02
+import dz08
 
 def main():
     print(fibonaccirecursive(12))
     print(fibonacciiterative(12))
     z05()
- #   z02()
+#    z02()
     z01()
     lista1 = [1, 2, 3, 4, 5]
     lista2 = [1, 2, {}, 4, 5]
     print(dz06.z02(lista1))
-    dz06.z02(lista2)
+    #dz06.z02(lista2)
+    dz08.z01()
+    dz08.z02()
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
